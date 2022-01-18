@@ -39,7 +39,7 @@
 }
 
 .banner{
-    background: blue;
+    background: radial-gradient(red, green, blue);
     grid-area: banner;
     min-height: 20vh;
 }
@@ -68,8 +68,8 @@
 
 .main{
     grid-area: main;
-    background: pink;
-    min-height: 60vh;
+    background: linear-gradient(to right, red 40%, yellow 40% 60%, blue 0);
+    min-height: 50vh;
 }
 
 .footer{
